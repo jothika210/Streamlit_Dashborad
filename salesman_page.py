@@ -14,8 +14,8 @@ def get_base64_image(image_path):
 
 config = {
     "UID": "pathway_app_user",
-    "PASSWORD": "9x4@L4eXm",
-    "SERVER": "citplcia.database.windows.net",
+    "PASSWORD": "999999999",
+    "SERVER": "database.net",
     "DATABASE": "mhauditapp"
 }
  
@@ -292,4 +292,5 @@ def display_salesman_section():
                 st.write("**Please select a Username**")
         except Exception as e:
             st.error(f"Error fetching data: {e}")
+
          

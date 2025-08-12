@@ -18,8 +18,8 @@ logo_base64 = get_base64_image(logo_path)
 
 config = {
     "UID": "pathway_app_user",
-    "PASSWORD": "9x4@L4eXm",
-    "SERVER": "citplcia.database.windows.net",
+    "PASSWORD": "999999999",
+    "SERVER": "database.net",
     "DATABASE": "mhauditapp"
 }
 
@@ -292,4 +292,5 @@ def salesman_dashboard():
         )
    
     html_content = generate_liquid_fill_chart1(total_count1, completed_count1, pending_count1)
+
     components.html(html_content, height=400, width=1100)

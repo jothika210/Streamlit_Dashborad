@@ -17,8 +17,8 @@ def get_base64_image(image_path):
 
 config = {
     "UID": "pathway_app_user",
-    "PASSWORD": "9x4@L4eXm",
-    "SERVER": "citplcia.database.windows.net",
+    "PASSWORD": "999999999",
+    "SERVER": "database.net",
     "DATABASE": "mhauditapp"
 }
  
@@ -170,4 +170,5 @@ def render_pending_surveys_page1():
             st.write(f"**Pending Data for Salesman: {selected_pending_sm_name}**")
             st.dataframe(filtered_pending_df)
     else:
+
             st.write("**Please select the Salesman Name**")

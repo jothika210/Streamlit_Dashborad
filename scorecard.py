@@ -17,8 +17,8 @@ def get_base64_image(image_path):
 
 config = {
     "UID": "pathway_app_user",
-    "PASSWORD": "9x4@L4eXm",
-    "SERVER": "citplcia.database.windows.net",
+    "PASSWORD": "999999999",
+    "SERVER": "database.net",
     "DATABASE": "mhauditapp"
 }
  
@@ -149,4 +149,5 @@ def render_score_card():
                 else:
                     st.dataframe(all_data)
         except Exception as e:
+
             st.error(f"Error fetching data: {e}")

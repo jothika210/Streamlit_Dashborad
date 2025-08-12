@@ -17,8 +17,8 @@ def get_base64_image(image_path):
 
 config = {
     "UID": "pathway_app_user",
-    "PASSWORD": "9x4@L4eXm",
-    "SERVER": "citplcia.database.windows.net",
+    "PASSWORD": "999999999",
+    "SERVER": "database.net",
     "DATABASE": "mhauditapp"
 }
 
@@ -296,4 +296,5 @@ def distributor_dashboard():
     html_content = generate_liquid_fill_chart(total_count, completed_count, pending_count)
     components.html(html_content, height=400, width=1100)
  
+
 

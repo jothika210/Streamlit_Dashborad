@@ -34,8 +34,8 @@ def get_base64_image(image_path):
 
 config = {
     "UID": "pathway_app_user",
-    "PASSWORD": "9x4@L4eXm",
-    "SERVER": "citplcia.database.windows.net",
+    "PASSWORD": "999999999",
+    "SERVER": "database.net",
     "DATABASE": "mhauditapp"
 }
 
@@ -311,3 +311,4 @@ def page_redirect():
 if __name__ == "__main__":
     with st.container():
         page_redirect()
+
